@@ -6,17 +6,34 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		60D652122D71CCFC001645A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D6520B2D71CCFC001645A5 /* Preview Assets.xcassets */; };
+		60D652132D71CCFC001645A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D652102D71CCFC001645A5 /* Assets.xcassets */; };
+		60D652142D71CCFC001645A5 /* jobApplyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D652072D71CCFC001645A5 /* jobApplyApp.swift */; };
+		60D652152D71CCFC001645A5 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D652092D71CCFC001645A5 /* model.swift */; };
+		60D652162D71CCFC001645A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D6520D2D71CCFC001645A5 /* ContentView.swift */; };
+		60D6521E2D71CDEB001645A5 /* JobListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D6521C2D71CDEB001645A5 /* JobListView.swift */; };
+		60D652202D71CE12001645A5 /* JobDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D6521F2D71CE12001645A5 /* JobDetailView.swift */; };
+		60D652222D71CE72001645A5 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D652212D71CE72001645A5 /* ScheduleView.swift */; };
+		60D652242D71CEAC001645A5 /* StaticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D652232D71CEAC001645A5 /* StaticsView.swift */; };
+		60D6523C2D720412001645A5 /* AddCompanyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D6523B2D720412001645A5 /* AddCompanyView.swift */; };
+		60D652422D72DC81001645A5 /* FormatterUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D652402D72DC81001645A5 /* FormatterUtils.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		60D651F02D71CBB9001645A5 /* jobApply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jobApply.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D652072D71CCFC001645A5 /* jobApplyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobApplyApp.swift; sourceTree = "<group>"; };
+		60D652092D71CCFC001645A5 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		60D6520B2D71CCFC001645A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60D6520D2D71CCFC001645A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60D652102D71CCFC001645A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60D6521C2D71CDEB001645A5 /* JobListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListView.swift; sourceTree = "<group>"; };
+		60D6521F2D71CE12001645A5 /* JobDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailView.swift; sourceTree = "<group>"; };
+		60D652212D71CE72001645A5 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		60D652232D71CEAC001645A5 /* StaticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticsView.swift; sourceTree = "<group>"; };
+		60D6523B2D720412001645A5 /* AddCompanyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCompanyView.swift; sourceTree = "<group>"; };
+		60D652402D72DC81001645A5 /* FormatterUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatterUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		60D651F22D71CBB9001645A5 /* jobApply */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = jobApply;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		60D651ED2D71CBB9001645A5 /* Frameworks */ = {
@@ -32,7 +49,7 @@
 		60D651E72D71CBB9001645A5 = {
 			isa = PBXGroup;
 			children = (
-				60D651F22D71CBB9001645A5 /* jobApply */,
+				60D652112D71CCFC001645A5 /* jobApply */,
 				60D651F12D71CBB9001645A5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +60,80 @@
 				60D651F02D71CBB9001645A5 /* jobApply.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		60D652082D71CCFC001645A5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				60D652072D71CCFC001645A5 /* jobApplyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		60D6520A2D71CCFC001645A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				60D652092D71CCFC001645A5 /* model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		60D6520C2D71CCFC001645A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60D6520B2D71CCFC001645A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60D6520E2D71CCFC001645A5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				60D6520D2D71CCFC001645A5 /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		60D6520F2D71CCFC001645A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60D6520E2D71CCFC001645A5 /* Main */,
+				60D6521D2D71CDEB001645A5 /* Jobs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		60D652112D71CCFC001645A5 /* jobApply */ = {
+			isa = PBXGroup;
+			children = (
+				60D652082D71CCFC001645A5 /* App */,
+				60D6520A2D71CCFC001645A5 /* Models */,
+				60D6520F2D71CCFC001645A5 /* Views */,
+				60D652412D72DC81001645A5 /* Utils */,
+				60D6520C2D71CCFC001645A5 /* Preview Content */,
+				60D652102D71CCFC001645A5 /* Assets.xcassets */,
+			);
+			path = jobApply;
+			sourceTree = "<group>";
+		};
+		60D6521D2D71CDEB001645A5 /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				60D6521C2D71CDEB001645A5 /* JobListView.swift */,
+				60D6521F2D71CE12001645A5 /* JobDetailView.swift */,
+				60D652212D71CE72001645A5 /* ScheduleView.swift */,
+				60D652232D71CEAC001645A5 /* StaticsView.swift */,
+				60D6523B2D720412001645A5 /* AddCompanyView.swift */,
+			);
+			path = Jobs;
+			sourceTree = "<group>";
+		};
+		60D652412D72DC81001645A5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				60D652402D72DC81001645A5 /* FormatterUtils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +150,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				60D651F22D71CBB9001645A5 /* jobApply */,
 			);
 			name = jobApply;
 			packageProductDependencies = (
@@ -109,6 +197,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D652122D71CCFC001645A5 /* Preview Assets.xcassets in Resources */,
+				60D652132D71CCFC001645A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +209,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D652142D71CCFC001645A5 /* jobApplyApp.swift in Sources */,
+				60D652152D71CCFC001645A5 /* model.swift in Sources */,
+				60D652422D72DC81001645A5 /* FormatterUtils.swift in Sources */,
+				60D6523C2D720412001645A5 /* AddCompanyView.swift in Sources */,
+				60D6521E2D71CDEB001645A5 /* JobListView.swift in Sources */,
+				60D652202D71CE12001645A5 /* JobDetailView.swift in Sources */,
+				60D652242D71CEAC001645A5 /* StaticsView.swift in Sources */,
+				60D652162D71CCFC001645A5 /* ContentView.swift in Sources */,
+				60D652222D71CE72001645A5 /* ScheduleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
